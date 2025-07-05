@@ -1,0 +1,68 @@
+Sistemas Simples para Problemas Reais
+
+1. Nome do grupo e integrantes
+Grupo: BOLOS.
+nome dos integrantes:Brayan de farias, davi roja, lais, otávio espindola, samuel.
+2. Nome do sistema/empresa fictícia
+Atualizar Bolo.ja.
+3. Título do problema
+
+o cliente não consegue pedir o bolo.
+
+4. Descrição do problema real
+o cliente precisa de um sistema que possa entrega de
+opções de bolos, tipo de tamanho, sabor, recheio, formato, massa. e pode receber pedidos
+para compra e entrega para os clientes.
+
+5. Como é tratado hoje
+em empresas, sistemas, aplicativos, ou opções caseiras, e
+mais alguns outros
+
+6. Solução proposta
+a proposta é fazer um sistema que confetaria em casa,
+podendo pedir um bolo com personalizado tipo isso:
+tamanho, sabor, recheio, formato, massa com data, e endereço,
+assim podendo entregá-los para os clientes.
+
+7. Explicação do código/lógica usada
+package pacote;
+package SIstemaDeBolos;
+public class Bolo { // = classe bolo
+String massa;
+String formato;
+double tamanho;
+String tamanho;
+String data;
+String especificacao;
+String endereco;
+String nome; // = Variáveis que armazenam informações do bolo.
+public Bolo(String massa, String formato, double tamanho) { // = um construtor
+public Bolo(String nome, String massa, String formato,String tamanho, String data,
+String especificacao, String endereco ) { //= é um segundo construtor
+this.nome=nome;
+this.massa = massa;
+this.formato=formato;
+this.tamanho=tamanho;
+this.formato = formato;
+this.tamanho = tamanho;
+this.data = data;
+this.especificacao = especificacao;
+this.endereco=endereco; ./ = Guardar os valores que vem de fora dos
+atributos objeto/.
+} // = abrir chafes
+public String informacao() { // = Método retorna as informações do bolo
+return "Massa do bolo: " + massa
+return "Nome: " + nome // = a variável que tiss o nome do bolo
++"\nEndereço: " + endereco
++"\nMassa do bolo: " + massa
++"\nFormato do bolo: " + formato
++"\nTamanho do bolo: " + tamanho;
++"\nTamanho do bolo: " + tamanho
++"\nEspecificações: " + especificacao
++"\nData: " + data; // = variáveis que repeceita os valores:
+}
+}
+} // = fecha chaves
+
+8. Melhorias futuras
+não sei agora.
